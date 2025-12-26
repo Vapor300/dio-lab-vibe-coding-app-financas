@@ -27,7 +27,7 @@ Um bom PRD deve descrever o problema, quem será beneficiado, as principais func
 
 ```txt
 # Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
+Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário em linguagem natural.  
 A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
 
 # Problema
