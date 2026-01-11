@@ -73,13 +73,78 @@ Durante essa etapa, você pode orientar a IA para três entregas principais:
 Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
 No README do seu repositório, inclua:
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
+- Seu **prompt final** (PRD);
+  > 
+# 📄 PRD – Aplicativo de Organização de Finanças Pessoais
+
+## 🎯 Objetivo
+Facilitar o controle financeiro de forma simples e natural, por meio de conversas em linguagem acessível, com recomendações automáticas de economia.
+
+---
+
+## 🧩 Funcionalidades-Chave (MVP)
+1. Registro de gastos via chat em linguagem natural.  
+2. Classificação automática das transações.  
+3. Definição e acompanhamento de metas financeiras.  
+4. Dicas de economia personalizadas do “Agente Financeiro”.  
+5. Relatórios simples e personalizados.  
+
+---
+
+## 👤 Público-Alvo
+Pessoas iniciantes no controle financeiro que buscam praticidade e motivação sem complexidade.
+
+---
+
+## 📱 Fluxo Visual de Interação (User Journey)
+
+```mermaid
+flowchart TD
+    A[Primeiro Acesso] --> B[Onboarding: explicação rápida + escolha de objetivo inicial]
+    B --> C[Chat Financeiro: usuário registra primeiro gasto]
+    C --> D[Classificação automática: app sugere categoria]
+    D --> E[Definição de meta simples: ex. economizar R$200/mês]
+    E --> F[Relatório inicial: gráfico simples mostrando gasto registrado]
+    F --> G[Agente Financeiro envia primeira dica de economia personalizada]
+```
+
+### Narrativa do Fluxo
+- **Primeiro Acesso**: usuário entende em 1 minuto como funciona o app.  
+- **Chat Financeiro**: registra um gasto em linguagem natural.  
+- **Classificação Automática**: sistema sugere categoria sem esforço manual.  
+- **Metas**: usuário define objetivo simples.  
+- **Relatório Inicial**: visualização clara e amigável.  
+- **Dica de Economia**: o “Agente Financeiro” celebra a ação e sugere melhoria.  
+
+---
+
+## ♿ Práticas de Acessibilidade
+Para garantir que o app seja inclusivo e fácil de usar:
+
+- **Contraste de cores adequado** (seguir WCAG AA).  
+- **Suporte a leitores de tela**: todos os elementos com descrições alternativas.  
+- **Fonte ajustável**: permitir aumento de tamanho sem quebrar layout.  
+- **Comandos por voz**: registrar gastos falando, além do texto.  
+- **Feedback auditivo e visual**: notificações com som e ícone.  
+- **Design inclusivo**: evitar jargões financeiros, usar linguagem simples e clara.  
+- **Gestos simplificados**: navegação com poucos toques e botões grandes.  
+
+---
+
+## ✅ Validação Inicial
+- Teste com grupo piloto de 10–20 pessoas.  
+- Métricas: número de gastos registrados, taxa de retorno após 7 dias, clareza das dicas.  
+- Iteração rápida: ajustar categorias e linguagem conforme feedback.  
+
+---
+
+- Prints ou pequenos vídeos das interações com a IA;
+Link do APP:  https://helpful-money-bot.lovable.app
 - Um resumo do que o seu **App de Finanças Pessoais** faz;  
 - Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+  - O que funcionou bem?  Interação com a IA.
+  - O que não funcionou como o esperado?  Tudo funcionou perfeitamente.
+  - O que aprendeu sobre conversar com IAs? A conversa com a IA precisa de organização e escopo definido para objetivos, organização do pensamento. Conversar com a IA é relativamente simples.
 
 > [!TIP]
 > Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
